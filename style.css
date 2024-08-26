@@ -1,3 +1,91 @@
+ *{
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+
+
+
+
+ .navbar{
+    display: flex;
+    height: 75px;
+    width: 100%S;
+ }
+
+.nav{
+    display: flex;
+    padding-left: 25px;
+    
+}
+ul{
+    display: flex;
+   align-items: center;
+   margin-right: 80px;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 20px;
+    
+   
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+   
+    
+}
+.nav ul li a:hover{
+    color: #0436fa;
+}
+.active{
+    color: #0436fa;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+  background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 60px;
+    width: 200px;
+    padding-left: 50px;
+}
+.logo{
+    background-image: url("/logo.png");
+    height: 60px;
+    width: 200px;
+    background-size: cover;
+
+}
+
+.link{
+    display: flex;
+    padding: 14px 48px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0436fa;
+    color:white;
+    margin-right: 20px;
+}
+.link i{
+    padding-bottom: 10px;
+}
+.link:hover{
+    background-color: #0b30c7;
+}
+.link a{
+    color: aliceblue;
+    
+}
+
 .panel{
     display: flex;
     justify-content: space-between;
@@ -63,4 +151,55 @@
 .panel-c1 i:hover{
     color: #171717;
     
+}
+/**hero-section*/
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fbfc;
+    height: 600px;
+}
+.hero-text{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 70px;
+}
+.hero-text1{
+    display: flex;
+    width: 534px;
+    height: 99px;
+    line-height: 0px;
+   
+    
+  
+}
+p{
+    font-size: 16px;
+   
+}
+.tex{
+    width: 153px;
+    height: 86px;
+   margin-top: 0;
+   border-right: 2px solid;
+   text-align: center;
+}
+.hero-img{
+    width: 50%;
+    height: 600px;
+}
+.hero-img img{
+    width:auto;
+    height: 600px;
+}
+.img{
+    background-image: url("/img1.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
 }
